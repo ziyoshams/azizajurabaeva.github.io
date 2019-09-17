@@ -1,0 +1,448 @@
+html{
+    font-family: 'Abel', sans-serif;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0%;
+    bottom: 0%;
+    /* background-color: #27407b; */
+    /* background-image:url("../assets/bridges.jpg"); */
+    text-align: center;
+    /* margin-top: 1%;
+    margin-right: 5%;
+    margin-left: 20%; */
+    text-align: center;
+    /* padding-left: 10%; */
+  }
+  #home{
+    height:600px;
+    width: 70%;
+    margin: 0; 
+    padding: 15%;
+    padding-top: 2%;
+    text-align: center;
+    /* background-color: #27407b; */
+    background-image:url("../assets/bridges.jpg");
+    background-size: cover;
+    /* text-align: center;
+    margin-top: 1%;
+    margin-right: 5%;
+    margin-left: 20%;
+    text-align: center; */
+    /* padding-left: 10%; */
+  }
+  #skills{
+      /* height: 405px; */
+      color: rgb(233, 229, 229);
+      border-top: 2px solid rgb(60, 2, 2);
+      color: rgba(0, 0, 0);
+      font-size: 66px;
+      margin: 0%;
+      padding-bottom: 2%;
+  }
+  .rails{
+    color: rgb(0, 0, 0);
+    height: 1%;
+    width: 55px;
+  }
+
+  /* .csi{
+    color: rgb(0, 0, 0);
+    height: 5%;
+    width: 20%;
+    
+  }
+  .ga{
+    color: rgb(28, 22, 22);
+    height: 0%;
+    width: 15%;
+  } */
+  #skillss{
+    /* height: 405px; */
+    background-color: rgba(58, 56, 56, 0.687);
+    color: rgb(233, 229, 229); 
+    font-size: 36px;
+    margin: 0%;
+    padding-bottom: 1%;
+}
+  /* .skillss{
+      padding: 5%;
+  } */
+  #projects{
+    /* height: 405px; */
+    background-color: rgba(58, 56, 56, 0.687);
+    color: rgb(233, 229, 229); 
+    border-top: 2px solid rgb(60, 2, 2);
+    font-size: 36px;
+    margin: 0%;
+    padding-bottom: 1%;
+}
+#education{
+    /* height: 405px; */
+    background-color: rgba(58, 56, 56, 0.687);
+    color: rgb(233, 229, 229); 
+    border-top: 2px solid rgb(60, 2, 2);
+    font-size: 36px;
+    margin: 0%;
+    padding-bottom: 1%;
+}
+.proj{
+    
+    text-align: center;
+    height: 70%;
+    width: 70%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 1%;
+    padding: 0%;
+}
+.csi{
+    display: flex;
+    text-align: center;
+    height: 25%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 0%;
+}
+
+#contact{
+    /* height: 405px; */
+    background-color: rgba(58, 56, 56, 0.687);
+    color: rgb(233, 229, 229); 
+    border-top: 2px solid rgb(60, 2, 2);
+    font-size: 36px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-bottom: 1%;
+    /* padding-bottom: 1%; */
+}
+.contactss{
+
+  margin-top: 4%;
+  margin-bottom: 4%;
+  /* padding-bottom: 1%; */
+}
+  .container{
+      margin: 0%;
+  }
+  .myname{
+      color: #9a9a9a;
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Gruppo', cursive;
+      margin: 0%;
+      
+  }
+  .fullstack{
+    text-align: center;
+    color: #9a9a9a;
+    font-size: 15px;
+}
+  .aziza{
+      
+      text-align: center;
+      /* margin: 10%;
+      padding: 5%; */
+      /* margin-left: 10%; */
+
+  }
+  .pic{
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    border-radius: 90%;
+    color: #500909bd;
+
+  }
+  .picc{
+    border: 2px solid rgb(0, 0, 0);
+    width: 80px;
+    height: auto;
+    border-radius: 90%;
+    color: #500909bd;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 1%;
+
+  }
+  .azizaa{
+    margin: 0%;
+    padding: 0%;
+
+  }
+  .developer{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.666);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 30px;
+    margin-left: 15%;
+    margin-right:15%;
+    background-color: #4d0808bf;
+    margin-top: 0;
+
+  }
+  .devname{
+    color: #7676768a;
+    font-size: 21px;
+  }
+  .name{
+      color: rgba(69, 6, 6, 0.79);
+      font-size: 42px;
+      font-family: 'Gruppo';
+  }
+  .hello{
+      color: rgb(0, 0, 0);
+      font-size: 35px;
+  }
+  .im{
+    color: rgba(233, 235, 235, 0.865);
+    font-size: 30px;
+    font-family: 'Gruppo', cursive;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    /* top: 0; */
+    /* left: 0; */
+    background-color: rgb(60, 16, 16);
+    background-color: rgb(60, 16, 16);
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align: center;
+    padding-left: 2%;
+    /* padding-top: 1%; */
+  }
+
+  .overlay-content {
+      
+    position: relative;
+    top: 10%;
+    
+    text-align: center;
+    margin-top: 10px;
+    
+  }
+  .overlay-contentt {
+    background-color: rgba(60, 16, 16, 0.968);
+    position:absolute;
+    top: 0%;
+    height: 8%;
+
+    text-align: center;
+    /* display: grid; */
+    /* margin: 0%; */
+    padding-top: 2.5%;
+  }
+  
+  .overlayy a {
+    /* padding: 10px; */
+    text-decoration: none;
+    font-size: 26px;
+    color: #818181;
+    display: inline;
+    text-align: center;
+    margin: 0%;
+    padding: 6%;
+    
+
+  }
+  .overlay a {
+
+    text-decoration: none;
+    font-size: 26px;
+    color: #818181;
+    display: block;
+    text-align: left;
+    margin: 0%;
+    padding: 1%;
+    padding-left: 35%;
+    padding-top: 5%;
+    
+
+  }
+ 
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    font-size: 50px;
+  }
+
+
+
+  /* @media screen and (max-width: 450px) {
+    .vertical-menu {
+        display: none;
+    }
+}; */
+
+.vertical-menu {
+    width: 405px; /* Set a width if you like */
+    height: 100%;
+    position: relative;
+  }
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0%;
+    
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+
+
+  /* Style the sidebar - fixed full height */
+.sidebar {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+
+    left: 0;
+    background-color: rgba(80, 11, 11, 0.906);
+    overflow-x: hidden;
+    padding-top: 26px;
+    margin-bottom: 2%;
+    /* border-right: 10px solid rgb(57, 56, 56); */
+  }
+  
+  /* Style sidebar links */
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    text-align: left
+  }
+
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: #000000;
+  }
+  
+  /* Style the main content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+  @media screen and (max-width: 450px) {
+    .sidebar {padding-top: 15px;
+    display: none;}
+    .sidebar a {font-size: 18px;}
+    body{
+        text-align: center;
+        margin: 0%;
+    }
+    .developer{
+        background-color: rgba(60, 3, 3, 0.639);
+        color: #ccc;
+    }
+        .openbtn{
+        display: none;
+        font-size:30px;
+        cursor:pointer;
+        color: black;
+    }
+
+
+
+  }
+  @media screen and (min-height: 900px){
+    .openbtn{
+        display: none;
+        font-size:30px;
+        cursor:pointer;
+        color: black;
+    }
+  }
+
+  @media screen and (max-height: 450px) {
+    .overlay{
+        height: 100%;
+        width: auto;
+        margin: 2%;
+    }  
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+    .openbtn{
+        display: none;
+        font-size:30px;
+        cursor:pointer;
+        color: black;
+    }
+
+
+
+  }
+
+.openbtn{
+    display:block; 
+    text-align: end;
+    margin: 0%;
+    color: transparent;
+    
+}
+.footer{
+    position: fixed;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    top: 92%;
+    height: 20%;
+    width: 220px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(233, 229, 229);
+}
+.skills a:hover {
+    color: #000000;
+  }
+/* .footerr{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-top: 1%;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(233, 229, 229);
+    text-align: center;
+} */
+
+.github{
+    height: 40px;
+    width: 2%;
+}
+.linkedin{
+    height: 40px;
+    width: 2%;
+
+}
